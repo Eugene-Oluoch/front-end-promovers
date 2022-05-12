@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a53eeb5d.css",
+    "main.js": "/static/js/main.43663f1a.js",
+    "static/media/man.jpg": "/static/media/man.7804eca91ec12fa75154.jpg",
+    "static/media/move2.png": "/static/media/move2.8b321300f732442c127f.png",
+    "static/media/next21.png": "/static/media/next21.51fa5de67ecda6594b78.png",
+    "static/media/next1.png": "/static/media/next1.fe081f2778bde6931814.png",
+    "static/media/father.jpg": "/static/media/father.4279c5096a663e77dcd2.jpg",
+    "static/media/instamovers.jpg": "/static/media/instamovers.5b6f180010006143536c.jpg",
+    "static/media/kyle.jpg": "/static/media/kyle.47ca3d8b5136a03642df.jpg",
+    "static/media/dog.jpg": "/static/media/dog.dbc8f47e3bf63eb2fc66.jpg",
+    "static/media/box-truck.png": "/static/media/box-truck.ad3e7ebb8b4d30afa67a.png",
+    "static/media/ezee.jpg": "/static/media/ezee.5ebd1dcde9d19b55ac0c.jpg",
+    "static/media/woman.jpg": "/static/media/woman.8541409f781cf89e2897.jpg",
+    "static/media/box.jpg": "/static/media/box.b4bb40c70d47085bd8f8.jpg",
+    "static/media/forklift.png": "/static/media/forklift.edcbfc1622531419406b.png",
+    "static/media/undraw_moving_re_pipp.svg": "/static/media/undraw_moving_re_pipp.4facf943068dc6502b602dda80a48cfd.svg",
+    "static/media/LogoMakr 2.png": "/static/media/LogoMakr 2.f3ef28d2f3e4f16183b1.png",
+    "static/media/house.png": "/static/media/house.640d0b1e39b36fd2550c.png",
+    "static/media/undraw_heavy_box_agqi.svg": "/static/media/undraw_heavy_box_agqi.708804dc54192beb8ee76e2d8d989a22.svg",
+    "index.html": "/index.html",
+    "main.a53eeb5d.css.map": "/static/css/main.a53eeb5d.css.map",
+    "main.43663f1a.js.map": "/static/js/main.43663f1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a53eeb5d.css",
+    "static/js/main.43663f1a.js"
+  ]
+}
