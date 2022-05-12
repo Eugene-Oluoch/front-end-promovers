@@ -1,0 +1,35 @@
+.not-container {
+    height: calc(100vh - 81px);
+    margin-inline: auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-button {
+    margin-top: 1rem;
+}
+
+.not-button-back {
+    border-radius: .5rem;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    transition: .3s ease-in-out;
+}
+
+.not-button-back:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 .5rem .5rem hsl(0, 0%, 80%);
+    transition: .3s ease-in-out;
+}

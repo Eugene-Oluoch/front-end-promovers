@@ -47,7 +47,7 @@ const Book = ({onBook},props) => {
          .then(res=>{
                 console.log(res)
                 useLoading(false)
-                navigate("/user/logs")
+                navigate("/userlogs")
                 setCurrentLocation('');
                 setNewLocation('');
                 setMovingDate('');

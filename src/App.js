@@ -11,6 +11,7 @@ import Contact from './Contact'
 import Service from "./Service";
 import About from './components/About';
 import axios from 'axios';
+import FourOwFour from './components/fourowfour/FourOwFour';
 
 
 import Userlogs from './components/activity-logs-user/Userlogs';
@@ -94,9 +95,10 @@ const [bookings,setBookings]=useState([])
            <Route exact path="/contact" element={<Contact/>} />
           <Route path="/login" element={<Login />}></Route>
           <Route path="/register" element={<Register />}></Route>
-          <Route path="/user/logs" element={<Userlogs />}></Route>
-          <Route path="/mover/logs" element={<Moverlogs />}></Route>
+          <Route path="/userlogs" exact element={<Userlogs />}></Route>
+          <Route path="/moverlogs" exact element={<Moverlogs />}></Route>
           <Route path="/movers/book/:name/:id" element={<AuthProvider><Book onBook={makeBooking} /></AuthProvider>}></Route>
+          <Route path="*" element={<FourOwFour />}></Route>
         </Routes>
       </AuthProvider>
 
