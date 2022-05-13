@@ -98,7 +98,7 @@ const [bookings,setBookings]=useState([])
           <Route path="/userlogs" exact element={<Userlogs />}></Route>
           <Route path="/moverlogs" exact element={<Moverlogs />}></Route>
           <Route path="/movers/book/:name/:id" element={<AuthProvider><Book onBook={makeBooking} /></AuthProvider>}></Route>
-          <Route path="*" element={<FourOwFour />}></Route>
+          <Route path="*" exact element={<FourOwFour />}></Route>
         </Routes>
       </AuthProvider>
 
